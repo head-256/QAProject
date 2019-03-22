@@ -1,0 +1,49 @@
+<web-app
+        xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+        version="2.4">
+    <display-name>Archetype Created Web Application</display-name>
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <page-encoding>UTF-8</page-encoding>
+        </jsp-property-group>
+    </jsp-config>
+
+    <error-page>
+        <error-code>404</error-code>
+        <location>/pages/errors/404.jsp</location>
+    </error-page>
+    <error-page>
+        <error-code>403</error-code>
+        <location>/pages/errors/403.jsp</location>
+    </error-page>
+    <error-page>
+        <error-code>500</error-code>
+        <location>/pages/errors/500.jsp</location>
+    </error-page>
+
+    <listener>
+        <description>sessionListener</description>
+        <listener-class>
+            com.dubhad.qaproject.listener.SessionListener
+        </listener-class>
+    </listener>
+    <filter-mapping>
+        <filter-name>encodingFilter</filter-name>
+        <url-pattern />
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>servletCommandFilter</filter-name>
+        <url-pattern />
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>permissionFilter</filter-name>
+        <url-pattern />
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>rawJspFilter</filter-name>
+        <url-pattern />
+    </filter-mapping>
+</web-app>

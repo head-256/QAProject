@@ -1,0 +1,153 @@
+.question-container {
+    background: #FAFAFA;
+    border-color: #B0B0B0;
+    border-width: 1px;
+    border-radius: 4px;
+    border-style: solid;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+    padding-left: 5px;
+    margin: 2px;
+}
+
+.side-menu {
+    border-color: #B0B0B0;
+    background: #FAFAFA;
+    border-width: 1px;
+    border-radius: 4px;
+    border-style: solid;
+    margin-top: 4px;
+    padding-top: 4px;
+}
+
+.side-menu-label {
+    margin-top: 2px;
+}
+
+.side-menu-input {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.side-menu-btn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn-group-vertical {
+    width: 100%;
+}
+
+.question-pos-rating{
+    color: green;
+    font-size: 0.8rem;
+    margin:0px;
+    padding: 0px;
+}
+
+.question-neg-rating{
+    color: red;
+    font-size: 0.8rem;
+    margin:0px;
+    padding: 0px;
+}
+
+.question-date {
+    font-size: 0.9rem;
+    color: #AAA;
+}
+
+.question-tag {
+    background: #DADADA;
+    border-color: #A0A0A0;
+    border-width: 1px;
+    border-radius: 4px;
+    border-style: solid;
+
+    padding-right: 3px;
+    padding-left: 3px;
+    margin-right: 3px;
+    color: black;
+}
+
+.question-tag:visited{
+    color: black;
+}
+
+.question-tag:hover{
+    color: black;
+}
+
+.question-tag:active{
+    color: #707070;
+}
+
+.question-title{
+    color: black;
+}
+
+.question-title:visited{
+    color: black;
+}
+
+.question-title:hover{
+    color: black;
+}
+
+.question-title:active{
+    color: #707070;
+}
+
+.btn-group-vertical {
+    width: 100%;
+ }
+
+.question-author-username:visited{
+    color: black;
+}
+
+.question-author-username:hover{
+    color: black;
+}
+
+.question-author-username:active{
+    color: #707070;
+}
+
+.question-text{
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+}
+
+.question-answers{
+    text-decoration: underline;
+}
+.question-answers:visited{
+    color: black;
+}
+
+.question-answers:hover{
+    color: black;
+}
+
+.question-answers:active{
+    color: #707070;
+}
+
+li{
+    display: inline-block;
+}
+
+ul{
+    padding-left: 0px;
+}
+
+.header-label{
+    color: #AAA;
+}
+
+.author-img{
+    width: 90%;
+}

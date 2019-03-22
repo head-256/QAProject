@@ -1,0 +1,88 @@
+.userpage-container{
+    background: #FAFAFA;
+    border-color: #B0B0B0;
+    border-width: 1px;
+    border-radius: 4px;
+    border-style: solid;
+    margin-top: 8px;
+}
+
+.userpage-avatar{
+	width: 100%;
+}
+
+.username-vertical{
+	border-left: 1px; 
+	border-style: solid;
+    border-color: #A0A0A0;
+}
+
+.userpage-table{
+	width: 100%;
+	margin-top: 0.5rem;
+}
+
+.userpage-table-td{
+	text-align: right; 
+	padding-right: 10px; 
+}
+
+.userpage-table-input-td{
+	padding-bottom: 0.2em;
+}
+
+.userpage-table-input{
+	width: 100%;
+}
+
+.userpage-save-button{
+	margin-top: 8px;
+}
+
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.pos-rating{
+    color: green;
+    margin:0px;
+    padding: 0px;
+}
+
+.neg-rating{
+    color: red;
+    margin:0px;
+    padding: 0px;
+}
+
+li{
+    display: inline-block;
+}
+
+ul{
+	margin-top: 0.4rem;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    font-size: 1rem;
+}
+
+.row{
+	margin-bottom: 0.5rem;
+}

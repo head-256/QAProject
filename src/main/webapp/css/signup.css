@@ -1,0 +1,27 @@
+.signup-menu {
+    border-color: #B0B0B0;
+    background: #FAFAFA;
+    border-width: 1px;
+    border-radius: 4px;
+    border-style: solid;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.signup-label {
+    width: 100%;
+    margin-top: 2px;
+}
+
+.signup-input {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.signup-btn {
+    margin-top: 5px;
+    width: 48%;
+    margin-right: 1%;
+    margin-bottom: 5px;
+}
